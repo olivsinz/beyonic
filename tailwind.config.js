@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         sans: ["Roboto", ...defaultTheme.fontFamily.sans],
       },
+      width: {
+        88: "22rem",
+      },
     },
   },
   plugins: [],
