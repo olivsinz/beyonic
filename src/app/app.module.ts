@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { TransferComponent } from './transfer/transfer.component';
 import { HistoryComponent } from './history/history.component';
-// import { NavmenuComponent } from './navmenux/navmenu.component';
 import { NavItemComponent } from './menu/nav-item/nav-item.component';
 import { NavComponent } from './menu/nav/nav.component';
 
@@ -16,7 +15,6 @@ import { NavComponent } from './menu/nav/nav.component';
     HomeComponent,
     TransferComponent,
     HistoryComponent,
-    // NavmenuComponent,
     NavItemComponent,
     NavComponent,
   ],
