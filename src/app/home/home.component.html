@@ -5,22 +5,27 @@
   <div class="w-full flex justify-between">
     <div class="bg-white rounded-[10px] p-2 w-88 text-white">
       <div
-        class="bg-gradient-to-r from-[#006FAB] to-[#00456B] w-full flex items-center justify-between rounded-[8px] h-32 p-3"
+        class="bg-gradient-to-r from-[#006FAB] to-[#00456B] w-full flex items-center justify-between rounded-[8px] h-36 p-3"
       >
         <div class="text-xs flex justify-between flex-col h-full">
           <div>
             <span class="">Balance</span>
             <div class="flex text-white items-baseline">
               <span class="font-bold text-2xl">9,485,760</span>
-              <span class="text-xs uppercase pl-2.5">UGX</span>
+              <span class="text-sm uppercase pl-2.5">UGX</span>
             </div>
           </div>
           <div class="">
             <span class="">Spent this week</span>
+            <div class="flex items-baseline">
+              <span class="font-bold text-lg">485,760</span>
+              <span class="text-xs uppercase pl-2.5">UGX</span>
+            </div>
           </div>
         </div>
 
-        <div>
+        <button title="Reveal">
+          <span class="sr-only">Reveal</span>
           <svg
             width="22"
             height="22"
@@ -53,7 +58,7 @@
               stroke-linecap="round"
             />
           </svg>
-        </div>
+        </button>
       </div>
     </div>
     <div class="bg-white rounded-[10px] w-88 p-4">
@@ -66,5 +71,96 @@
       </div>
     </div>
   </div>
-  <div class="w-full bg-white"></div>
+  <div class="w-full bg-white h-full mt-28 rounded-[10px] px-4 py-3">
+    <div class="px-4 text-sm">Recent transactions</div>
+    <div class="mt-5 w-9/12">
+      <div class="flex items-center justify-between">
+        <div
+          class="rounded-full bg-[#CAECFF] w-8 h-8 flex items-center justify-center"
+        >
+          <svg
+            width="22"
+            height="26"
+            viewBox="0 0 29 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.754 11.0331L10.4102 19.377"
+              stroke="#4D4D4B"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M19.4823 18.8608L19.2348 10.5523L10.997 10.3756"
+              stroke="#4D4D4B"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div>John Dembe</div>
+        <div class="font-bold">UGX 5,846.00</div>
+        <div>Send Money</div>
+        <div class="text-[#008F50]">Completed</div>
+        <div class="">4 hr</div>
+      </div>
+    </div>
+    <div class="mt-5">
+      <table class="">
+        <caption class="sr-only">
+          Recent transactions
+        </caption>
+        <thead class="sr-only">
+          <tr>
+            <th>Type</th>
+            <th>Beneficiary</th>
+            <th>Amount</th>
+            <th>Action</th>
+            <th>Status</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <div
+                class="rounded-full bg-[#CAECFF] w-8 h-8 flex items-center justify-center"
+              >
+                <svg
+                  width="22"
+                  height="26"
+                  viewBox="0 0 29 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.754 11.0331L10.4102 19.377"
+                    stroke="#4D4D4B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M19.4823 18.8608L19.2348 10.5523L10.997 10.3756"
+                    stroke="#4D4D4B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </th>
+            <th>John Dembe</th>
+            <th class="font-medium">UGX 5,846.00</th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
